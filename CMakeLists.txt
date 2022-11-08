@@ -36,11 +36,11 @@ aux_source_directory(${DIR_TEST} TEST_SRCS)
 # library
 add_library(suduo ${SRCS})
 
-#executable for test
+# executable for test
 # foreach(SRCFILE IN LISTS TEST_SRCS)
 #     get_filename_component(EXENAME ${SRCFILE} NAME_WE)
 #     add_executable(${EXENAME} ${SRCFILE})
-#     target_link_libraries(${EXRNAME} suduo )
+#     target_link_libraries(${EXRNAME} suduo pthread)
 # endforeach()
 
 
